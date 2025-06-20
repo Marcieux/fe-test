@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BrandFont";
+  src: url("./assets/BROWN SUNFLOWER.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rollie";
+  src: url("./assets/RRollie Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cromlin";
+  src: url("./assets/CromlinDEMO-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corporate";
+  src: url("./assets/Corporate S Light Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional Tailwind utility override */
+@layer base {
+  .font-cake {
+    font-family: "BrandFont", sans-serif;
+  }
+  .font-cromlin {
+    font-family: "Cromlin", sans-serif;
+  }
+  .font-corporate {
+    font-family: "Corporate", sans-serif;
+  }
+  .font-rollie {
+    font-family: "Rollie", sans-serif;
+  }
+}
